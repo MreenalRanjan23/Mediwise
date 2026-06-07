@@ -1,0 +1,148 @@
+/* ================================================= */
+/* FADE IN */
+/* ================================================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* ================================================= */
+/* FLOATING */
+/* ================================================= */
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.floating {
+  animation: floating 6s ease-in-out infinite;
+}
+
+/* ================================================= */
+/* GLOW PULSE */
+/* ================================================= */
+
+@keyframes glowPulse {
+  0% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.06);
+  }
+
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+}
+
+.glow-pulse {
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+/* ================================================= */
+/* SHIMMER */
+/* ================================================= */
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.03) 25%,
+    rgba(255,255,255,0.08) 50%,
+    rgba(255,255,255,0.03) 75%
+  );
+
+  background-size: 1000px 100%;
+  animation: shimmer 3s infinite linear;
+}
+
+/* ================================================= */
+/* HOVER LIFT */
+/* ================================================= */
+
+.hover-lift {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 0 30px rgba(59,130,246,0.12),
+    0 0 60px rgba(168,85,247,0.08);
+
+  border-color: rgba(255,255,255,0.16);
+}
+
+/* ================================================= */
+/* SOFT SCALE */
+/* ================================================= */
+
+.soft-scale {
+  transition: transform 0.25s ease;
+}
+
+.soft-scale:hover {
+  transform: scale(1.03);
+}
+
+/* ================================================= */
+/* GRADIENT MOTION */
+/* ================================================= */
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-motion {
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+}
