@@ -1,0 +1,4 @@
+drug_a,drug_b,interaction_type,severity_level,mechanism,recommended_spacing_hours
+Warfarin,Ibuprofen,bleeding_risk,5,Additive anticoagulant effect,0
+Ciprofloxacin,Calcium,absorption_reduction,4,Chelation reduces absorption,2
+Ibuprofen,Warfarin,bleeding_risk,5,Additive anticoagulant effect,0

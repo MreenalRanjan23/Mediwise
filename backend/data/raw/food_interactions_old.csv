@@ -1,0 +1,9 @@
+drug_name,food,interaction_type,recommendation
+Ciprofloxacin,Dairy,absorption_reduction,Avoid dairy within 2 hours
+Warfarin,Vitamin K foods,effect_reduction,Maintain consistent vitamin K intake
+Atorvastatin,Grapefruit,toxicity_increase,Avoid grapefruit juice
+Simvastatin,Grapefruit,toxicity_increase,Avoid grapefruit juice
+Metronidazole,Alcohol,severe_reaction,Avoid alcohol during treatment
+Tetracycline,Dairy,absorption_reduction,Avoid dairy within 2 hours
+Levothyroxine,Calcium supplements,absorption_reduction,Separate by 4 hours
+Iron,Tea or Coffee,absorption_reduction,Avoid tea or coffee within 1 hour
